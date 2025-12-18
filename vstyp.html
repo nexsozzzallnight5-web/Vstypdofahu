@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Перукарня StylePro</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f7fa;
+      color: #333;
+    }
+    header {
+      background: #ffffff;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #2c7be5;
+    }
+    .contacts {
+      font-size: 14px;
+    }
+    .hero {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      padding: 60px 40px;
+      background: linear-gradient(135deg, #e3f2fd, #ffffff);
+    }
+    .hero-text h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+    .hero-text p {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 15px 30px;
+      background: #2c7be5;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    .hero-image {
+      background: #dbeafe;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      color: #2c7be5;
+    }
+    section {
+      padding: 60px 40px;
+      background: #ffffff;
+      margin-top: 20px;
+    }
+    section h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .features, .results, .trust {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #f8fafc;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+      text-align: center;
+    }
+    .cta {
+      text-align: center;
+      background: #2c7be5;
+      color: #fff;
+    }
+    .cta h2 {
+      color: #fff;
+    }
+    .cta .btn {
+      background: #ffffff;
+      color: #2c7be5;
+      margin-top: 20px;
+    }
+    footer {
+      padding: 30px 40px;
+      background: #1e293b;
+      color: #ffffff;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">StylePro</div>
+  <div class="contacts">📞 +38 (099) 1488-1161<br/>📍 м. Шміла</div>
+</header>
+
+<section class="hero">
+  <div class="hero-text">
+    <h1>Стильні стрижки та догляд за волоссям</h1>
+    <p>Професійна перукарня для жінок і чоловіків. Індивідуальний підхід та сучасні техніки.</p>
+    <a href="#order" class="btn">Записатися зараз</a>
+  </div>
+  <div class="hero-image">Привітальне зображення</div>
+</section>
+
+<section>
+  <h2>Наші послуги</h2>
+  <div class="features">
+    <div class="card">Жіночі та чоловічі стрижки</div>
+    <div class="card">Фарбування та тонування</div>
+    <div class="card">Укладання та догляд</div>
+    <div class="card">Весільні зачіски</div>
+  </div>
+</section>
+
+<section>
+  <h2>Реальні результати</h2>
+  <div class="results">
+    <div class="card">Фото «до / після»</div>
+    <div class="card">Відгуки задоволених клієнтів</div>
+    <div class="card">Результати в реальному житті</div>
+  </div>
+</section>
+
+<section>
+  <h2>Нам довіряють</h2>
+  <div class="trust">
+    <div class="card">10+ років досвіду</div>
+    <div class="card">Сертифіковані майстри</div>
+    <div class="card">Понад 1000 клієнтів</div>
+  </div>
+</section>
+
+<section id="order" class="cta">
+  <h2>Запишіться на стрижку вже сьогодні</h2>
+  <p>Залиште заявку та отримайте знижку на перший візит</p>
+  <a href="#" class="btn">Замовити послугу</a>
+</section>
+
+<footer>
+  <p>© 2025 Перукарня StylePro | Усі права захищені</p>
+</footer>
+
+</body>
+</html>
